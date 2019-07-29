@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  background-color: #282c34;
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #61dafb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.seat-container {
+  display: inline-block;
+}
+
+.seat-circle {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.row {
+  display: flex;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
